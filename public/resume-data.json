@@ -1,0 +1,280 @@
+{
+  "name": "JOHN DOE",
+  "contact": {
+    "email": "john.doe@example.com",
+    "links": [
+      { "url": "github.com/johndoe", "alias": "GitHub" },
+      { "url": "linkedin.com/in/johndoe", "alias": "LinkedIn" },
+      { "url": "johndoe.dev", "alias": "Portfolio" }
+    ]
+  },
+  "sections": [
+    {
+      "type": "variant",
+      "id": "summary",
+      "label": "Summary",
+      "variants": [
+        {
+          "id": "summary-default",
+          "label": "Staff Engineer",
+          "tags": ["default", "staff"],
+          "content": "Staff Software Engineer with 10+ years of experience architecting and scaling distributed cloud systems for enterprise environments. Proven track record of leading cross-functional engineering teams, modernizing legacy monoliths into resilient microservices, and driving technical strategy from conception to deployment. Passionate about developer productivity, mentoring senior engineers, and establishing robust operational standards that reduce downtime and accelerate feature delivery."
+        },
+        {
+          "id": "summary-management",
+          "label": "Engineering Manager",
+          "tags": ["management", "leadership"],
+          "content": "Engineering Manager / Technical Lead with a decade of experience building and scaling high-performing software teams. Adept at bridging the gap between product vision and technical execution. Focused on fostering a culture of continuous learning, psychological safety, and operational excellence. Experienced in managing budgets, conducting performance reviews, and successfully delivering multi-million dollar business initiatives on schedule."
+        },
+        {
+          "id": "summary-ai",
+          "label": "AI / ML Focus",
+          "tags": ["ai", "machine-learning"],
+          "content": "Staff Engineer specializing in integrating LLMs and Machine Learning pipelines into production consumer applications. 10+ years of full-stack experience combined with deep expertise in building RAG architectures, optimizing prompt pipelines, and deploying cost-effective generative AI features using Python, PyTorch, and cloud-native serverless technologies."
+        }
+      ],
+      "activeVariantId": "summary-default"
+    },
+    {
+      "type": "variant",
+      "id": "skills",
+      "label": "Skills",
+      "sectionHeader": "SKILLS",
+      "variants": [
+        {
+          "id": "skills-fullstack",
+          "label": "Fullstack Cloud",
+          "tags": ["fullstack", "cloud"],
+          "content": "TypeScript, Python, Go, Rust | React, Next.js, Node.js | AWS (EKS, Lambda, S3, RDS), GCP | Docker, Kubernetes, Terraform | PostgreSQL, Redis, MongoDB, Elasticsearch | CI/CD, GitHub Actions, Datadog | System Design, Microservices, Event-Driven Architecture"
+        },
+        {
+          "id": "skills-frontend",
+          "label": "Frontend Heavy",
+          "tags": ["frontend", "ui"],
+          "content": "TypeScript, JavaScript, HTML5, CSS3 | React, Vue.js, Svelte, Next.js, Remix | TailwindCSS, Styled Components, Framer Motion | WebGL, Three.js, Canvas API | Redux, Zustand, React Query | Cypress, Playwright, Jest, Vitest | Webpack, Vite, Turbopack | Accessibility (a11y), Core Web Vitals, Performance Profiling"
+        }
+      ],
+      "activeVariantId": "skills-fullstack"
+    },
+    {
+      "type": "work",
+      "id": "work-gigatech",
+      "company": "GIGATECH INC",
+      "role": "Staff Software Engineer",
+      "dates": "March 2021 \u2013 Present",
+      "intro": {
+        "label": "Gigatech Intro",
+        "variants": [
+          {
+            "id": "gigatech-intro-tech",
+            "label": "Technical Focus",
+            "tags": ["technical", "architecture"],
+            "content": "Led the Core Infrastructure team of 12 engineers in redesigning the global payments processing engine, handling over $5B in daily transaction volume."
+          },
+          {
+            "id": "gigatech-intro-lead",
+            "label": "Leadership Focus",
+            "tags": ["leadership", "management"],
+            "content": "Acted as technical pillar lead for the Payments organization. Guided architectural decisions across 4 distinct engineering squads consisting of 30+ developers."
+          }
+        ],
+        "activeVariantId": "gigatech-intro-tech"
+      },
+      "bullets": [
+        {
+          "id": "giga-bullet-1",
+          "label": "Payments Engine Migration",
+          "tags": ["migration", "golang"],
+          "content": "Architected and executed the migration of a legacy Ruby on Rails payments monolith to a high-throughput, event-driven Go microservices architecture, increasing transaction throughput by 500%."
+        },
+        {
+          "id": "giga-bullet-2",
+          "label": "Zero-Downtime DB",
+          "tags": ["database", "postgresql"],
+          "content": "Designed a zero-downtime database sharding strategy for the primary PostgreSQL cluster, resolving critical bottlenecks and reducing P99 query latency from 1.2s to 45ms."
+        },
+        {
+          "id": "giga-bullet-3",
+          "label": "Cloud Cost Optimization",
+          "tags": ["aws", "finops"],
+          "content": "Spearheaded a cloud infrastructure audit utilizing Terraform and AWS Cost Explorer, identifying and eliminating ghost resources to reduce monthly AWS spend by $120,000 without impacting performance."
+        },
+        {
+          "id": "giga-bullet-4",
+          "label": "Mentorship & DevEx",
+          "tags": ["mentorship", "devex"],
+          "content": "Established an engineering guild focused on Developer Experience (DevEx). Built internal CLI tools in Rust that reduced local environment onboarding time for new hires from 3 days to 2 hours."
+        },
+        {
+          "id": "giga-bullet-5",
+          "label": "Generative AI Hackathon",
+          "tags": ["ai", "hackathon"],
+          "content": "Won first place in the company-wide hackathon by prototyping an internal generative AI tool using OpenAI APIs to auto-document legacy codebases."
+        }
+      ],
+      "activeBulletIds": ["giga-bullet-1", "giga-bullet-2", "giga-bullet-3", "giga-bullet-4"]
+    },
+    {
+      "type": "work",
+      "id": "work-startup",
+      "company": "HYPERGROWTH STARTUP",
+      "role": "Senior Full Stack Engineer",
+      "dates": "August 2018 \u2013 February 2021",
+      "bullets": [
+        {
+          "id": "startup-bullet-1",
+          "label": "React/Next.js Platform",
+          "tags": ["frontend", "react"],
+          "content": "Led the frontend rebuild of the core SaaS platform from a jQuery legacy app to a modern React/Next.js application, improving Core Web Vitals by 60% and increasing user retention."
+        },
+        {
+          "id": "startup-bullet-2",
+          "label": "Real-time Analytics",
+          "tags": ["backend", "websockets"],
+          "content": "Implemented a real-time analytics dashboard utilizing WebSockets and Redis Pub/Sub, allowing clients to monitor live marketing campaign metrics with sub-second latency."
+        },
+        {
+          "id": "startup-bullet-3",
+          "label": "GraphQL API Design",
+          "tags": ["graphql", "api"],
+          "content": "Designed and deployed a federated GraphQL API layer over existing REST services, reducing client-side data over-fetching and speeding up mobile app development cycles by 30%."
+        },
+        {
+          "id": "startup-bullet-4",
+          "label": "Design System",
+          "tags": ["ui", "design-system"],
+          "content": "Collaborated with the design team to create and maintain an internal component library using Storybook and Tailwind CSS, standardizing UI patterns across all company products."
+        },
+        {
+          "id": "startup-bullet-5",
+          "label": "SEO Optimization",
+          "tags": ["seo", "marketing"],
+          "content": "Implemented advanced Next.js server-side rendering (SSR) and dynamic metadata generation, leading to a 40% increase in organic search traffic within one quarter."
+        }
+      ],
+      "activeBulletIds": ["startup-bullet-1", "startup-bullet-2", "startup-bullet-3", "startup-bullet-4"]
+    },
+    {
+      "type": "work",
+      "id": "work-agency",
+      "company": "CREATIVE DIGITAL AGENCY",
+      "role": "Software Engineer",
+      "dates": "January 2015 \u2013 July 2018",
+      "bullets": [
+        {
+          "id": "agency-bullet-1",
+          "label": "Client E-commerce",
+          "tags": ["ecommerce", "javascript"],
+          "content": "Delivered over 15 bespoke e-commerce experiences for high-profile retail clients using custom headless CMS solutions and Next.js frontends, generating a combined $10M+ in client revenue."
+        },
+        {
+          "id": "agency-bullet-2",
+          "label": "3D WebGL Configurator",
+          "tags": ["webgl", "threejs"],
+          "content": "Developed an interactive 3D product configurator using Three.js, increasing average user time-on-page by 3 minutes and conversion rates by 15%."
+        },
+        {
+          "id": "agency-bullet-3",
+          "label": "Automated Testing",
+          "tags": ["testing", "cypress"],
+          "content": "Introduced end-to-end testing protocols using Cypress, reducing client-reported post-launch bugs by 80% across all tier-1 projects."
+        }
+      ],
+      "activeBulletIds": ["agency-bullet-1", "agency-bullet-2", "agency-bullet-3"]
+    },
+    {
+      "type": "work",
+      "id": "work-legacy",
+      "company": "LEGACY ENTERPRISES",
+      "role": "Junior Web Developer",
+      "dates": "June 2013 \u2013 December 2014",
+      "bullets": [
+        {
+          "id": "legacy-bullet-1",
+          "label": "Internal Portals",
+          "tags": ["php", "jquery"],
+          "content": "Maintained and added new features to legacy internal HR and inventory portals using PHP, jQuery, and MySQL."
+        },
+        {
+          "id": "legacy-bullet-2",
+          "label": "Responsive Emails",
+          "tags": ["email", "html"],
+          "content": "Coded responsive marketing email templates matching strict design specifications, achieving 95%+ client rendering compatibility."
+        }
+      ],
+      "activeBulletIds": ["legacy-bullet-1"]
+    },
+    {
+      "type": "work",
+      "id": "work-freelance",
+      "company": "INDEPENDENT CONSULTING",
+      "role": "Freelance Software Architect",
+      "dates": "January 2012 \u2013 May 2013",
+      "bullets": [
+        {
+          "id": "freelance-bullet-1",
+          "label": "SMB E-commerce",
+          "tags": ["ecommerce", "wordpress"],
+          "content": "Designed and developed custom e-commerce solutions for 10+ local small businesses using WordPress, WooCommerce, and custom PHP plugins, increasing their average online sales by 40%."
+        },
+        {
+          "id": "freelance-bullet-2",
+          "label": "Performance Audits",
+          "tags": ["performance", "seo"],
+          "content": "Conducted technical SEO and performance audits for client websites, implementing caching strategies and asset optimization to achieve sub-second load times."
+        },
+        {
+          "id": "freelance-bullet-3",
+          "label": "Client Relationship",
+          "tags": ["consulting", "sales"],
+          "content": "Managed end-to-end client relationships, from initial discovery calls and technical scoping to contract negotiation and post-launch support retainers."
+        }
+      ],
+      "activeBulletIds": ["freelance-bullet-1", "freelance-bullet-2"]
+    },
+    {
+      "type": "work",
+      "id": "work-university",
+      "company": "STATE UNIVERSITY NLP LAB",
+      "role": "Undergraduate Research Assistant",
+      "dates": "September 2011 \u2013 May 2013",
+      "bullets": [
+        {
+          "id": "uni-bullet-1",
+          "label": "Sentiment Analysis",
+          "tags": ["nlp", "python"],
+          "content": "Developed Python scripts using NLTK and scikit-learn to perform entity-level sentiment analysis on a dataset of 5 million Twitter tweets regarding public health policies."
+        },
+        {
+          "id": "uni-bullet-2",
+          "label": "Data Pipeline",
+          "tags": ["data-engineering", "bash"],
+          "content": "Built automated data ingestion pipelines in Bash and Python to scrape, clean, and format linguistic datasets for academic publication, saving researchers 20+ hours per week."
+        },
+        {
+          "id": "uni-bullet-3",
+          "label": "Co-authored Paper",
+          "tags": ["academic", "research"],
+          "content": "Co-authored a paper on predictive modeling of social media trends, accepted and presented at the 2013 International Conference on Computational Linguistics."
+        }
+      ],
+      "activeBulletIds": ["uni-bullet-1", "uni-bullet-2", "uni-bullet-3"]
+    },
+    {
+      "type": "variant",
+      "id": "education",
+      "label": "Education",
+      "sectionHeader": "EDUCATION",
+      "variants": [
+        {
+          "id": "edu-default",
+          "label": "B.S. CS",
+          "tags": [],
+          "content": "B.S. in Computer Science, Minor in Mathematics \u2014 State University of Technology (San Francisco, CA)"
+        }
+      ],
+      "activeVariantId": "edu-default"
+    }
+  ],
+  "_isEnriched": true
+}
